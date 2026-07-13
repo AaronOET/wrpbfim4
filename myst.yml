@@ -37,6 +37,6 @@ project:
     
 site:
   template: book-theme
-  options:
-    favicon: _static/favicon.svg
+  # options:
+  #   favicon: favicon.ico
   #   logo: site_logo.png
