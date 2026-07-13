@@ -34,9 +34,6 @@ project:
       # - file: d3dtools/Tip002_快速啟動d3dtoolsenv.md
     - file: aitools.md  
     - file: qa.md
-      children:
-      - file: qa/
-
     
 site:
   template: book-theme
