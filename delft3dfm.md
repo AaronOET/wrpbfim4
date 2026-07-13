@@ -2,7 +2,7 @@
 
 ## DEM內插補充說明 (1)
 
-[Download PDF](./delft3dfm/DEM內插補充說明.pdf)
+[View PDF](./delft3dfm/DEM內插補充說明.pdf)
 
 ---
 
@@ -21,6 +21,6 @@ _net.nc   使用 UGrid格式 選取對應參數 z-coordinate of mesh faces 可�
 
 ## DEM內插資料遺失問題
 
-[Download PDF](./delft3dfm/DEM內插資料遺失問題.pdf)
+[View PDF](./delft3dfm/DEM內插資料遺失問題.pdf)
 
 ---
