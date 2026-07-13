@@ -2,7 +2,7 @@
 
 ## Tip001_命令列指令記憶
 <iframe
-  src="/d3dtools/Tip001_命令列指令記憶.pdf"
+  src="./_static/d3dtools/Tip001_命令列指令記憶.pdf"
   width="100%"
   height="600px"
   style="border:none;">
@@ -12,7 +12,7 @@
 
 ## Tip002_快速啟動d3dtoolsenv
 <iframe
-  src="/d3dtools/Tip002_快速啟動d3dtoolsenv.pdf"
+  src="./_static/d3dtools/Tip002_快速啟動d3dtoolsenv.pdf"
   width="100%"
   height="600px"
   style="border:none;">
