@@ -32,6 +32,7 @@ project:
       # children:
       # - file: d3dtools/Tip001_命令列指令記憶.md
       # - file: d3dtools/Tip002_快速啟動d3dtoolsenv.md
+    - file: aitools.md  
     - file: qa.md
       children:
       - file: qa/
