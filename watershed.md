@@ -1,1 +1,256 @@
 # 集水區劃分
+
+## 縣市名稱 代碼
+
+| 縣市名稱 | 代碼 |
+| --- | --- |
+| 彰化縣 | CHA |
+| 嘉義縣 | CYQ |
+| 新竹縣 | HSQ |
+| 花蓮縣 | HUA |
+| 宜蘭縣 | ILA |
+| 金門縣 | KIN |
+| 連江縣 | LIE |
+| 苗栗縣 | MIA |
+| 南投縣 | NAN |
+| 澎湖縣 | PEN |
+| 屏東縣 | PIF |
+| 臺東縣 | TTT |
+| 雲林縣 | YUN |
+| 嘉義市 | CYI |
+| 新竹市 | HSZ |
+| 基隆市 | KEE |
+| 高雄市 | KHH |
+| 新北市 | NWT |
+| 桃園市 | TAO |
+| 臺南市 | TNN |
+| 臺北市 | TPE |
+| 臺中市 | TXG |
+
+## 集水區名稱、英文名稱、代碼
+
+| 中文名稱 | 英文名稱 | 代碼 |
+| --- | --- | --- |
+| 阿拔泉溪 | Abaqyuan River | AB |
+| 阿公店溪 | Agongdian River | AG |
+| 隘寮溪 | Ailiao River | AI |
+| 隘寮北溪 | Ailiaobei River | AL |
+| 隘寮南溪 | Ailiaonan River | AA |
+| 阿里不動溪 | Alibudong River | AU |
+| 阿里山溪 | Alishan River | AS |
+| 阿眉溪 | Amei River | AM |
+| 安農溪 | Annong River | AN |
+| 安通溪 | Antong River | AT |
+| 阿夜西溪 | Ayexi River | AY |
+| 白水溪 | Baishui River | BA |
+| 白樹腳溪 | Baishujiao River | BI |
+| 芭蕉溪 | Bajiao River | BJ |
+| 邦腹溪 | Bangfu River | BN |
+| 寶來溪 | Baolai River | BO |
+| 八掌溪 | Bazhang River | BZ |
+| 拔仔岡溪 | Bazigang River | BG |
+| 北港溪 | Beigang River | BE |
+| 北溝溪 | Beigou River | BU |
+| 卑南溪 | Beinan River | BB |
+| 鱉溪 | Bie River | BC |
+| 筆石溪 | Bishi River | BS |
+| 菜寮溪 | Cailiao River | CA |
+| 蒼庫溪 | Cangku River | CN |
+| 草湖溪 | Caohu River | CO |
+| 樟平溪 | Changping River | CH |
+| 陳有蘭溪 | Chenyoulan River | CE |
+| 赤蘭溪 | Chilan River | CI |
+| 粗坑溪 | Cukeng River | CU |
+| 大安溪 | Daan River | DA |
+| 大肚滑溪 | Daduhua River | DD |
+| 打狗溪 | Dagou River | DG |
+| 大漢溪 | Dahan River | DH |
+| 大湖溪 | Dahu River | DU |
+| 大湖口溪 | Dahukou River | DK |
+| 大甲溪 | Dajia River | DJ |
+| 大礁溪 | Dajiao River | DI |
+| 大坑溪 | Dakeng River | DE |
+| 大里溪 | Dali River | DL |
+| 大崙溪 | Dalun River | DN |
+| 打馬溝溪 | Damagou River | DM |
+| 丹大溪 | Danda River | DB |
+| 大坪溪 | Daping River | DP |
+| 大坡溪 | Dapo River | DO |
+| 大埔溪 | Dapu River | DC |
+| 頂粗坑溪 | Dingcukeng River | DF |
+| 頂埔溪 | Dingpu River | DQ |
+| 東港溪 | Donggang River | DR |
+| 東河溪 | Donghe River | DS |
+| 東壘溪 | Donglei River | DT |
+| 東埔蚋溪 | Dongpurui River | DV |
+| 東廣寮溪 | Donguangliao River | DW |
+| 峨眉溪 | Emei River | EM |
+| 二重疏洪道 | Erchong Floodway | ER |
+| 二仁溪 | Erren River | EE |
+| 梵梵溪 | Fanfan River | FA |
+| 番子路科溪 | Fanziluke River | FN |
+| 筏子溪 | Fazi River | FZ |
+| 飛鳳溪 | Feifeng River | FE |
+| 楓溪 | Feng River | FG |
+| 鳳林溪 | Fenglin River | FL |
+| 豐坪溪 | Fengping River | FP |
+| 鳳山溪 | Fengshan River | FS |
+| 夫布爾溪 | Fubuer River | FU |
+| 呂範溪 | Fufan River | FF |
+| 富興溪 | Fuxing River | FX |
+| 富源溪 | Fuyuan River | FY |
+| 乾溪 | Gan River | GA |
+| 柑仔坑溪 | Ganzikeng River | GN |
+| 高屏溪 | Gaoping River | GO |
+| 高寮溪 | Gauliao River | GU |
+| 溝坪溪 | Gouping River | GP |
+| 光復溪 | Guangfu River | GG |
+| 官田溪 | Guantian River | GT |
+| 龜重溪 | Guizhong River | GI |
+| 過溪 | Guo River | GB |
+| 海豐崙溪 | Haifenglun River | HA |
+| 寒溪 | Han River | HN |
+| 旱溪 | Han River | HB |
+| 河內溪 | Henei River | HE |
+| 和平溪 | Heping River | HP |
+| 和社溪 | Heshe River | HS |
+| 紅石溪 | Hongshi River | HO |
+| 紅葉溪 | Hongye River | HG |
+| 後旦溪 | Houdan River | HU |
+| 後堀溪 | Houjue River | HJ |
+| 後龍溪 | Houlong River | HL |
+| 花蓮溪 | Hualien River | HI |
+| 虎尾溪 | Huwei River | HW |
+| 加典溪 | Jiadian River | JI |
+| 嘉豐一號溪 | Jiafeng No.1 River | JA |
+| 嘉豐二號溪 | Jiafeng No.2 River | JF |
+| 嘉豐溪 | Jiafeng River | JE |
+| 加蘭溪 | Jialan River | JL |
+| 加鹿溪 | Jialu River | JU |
+| 加納富溪 | Jianafu River | JN |
+| 嘉武溪 | Jiawu River | JW |
+| 加走寮溪 | Jiazouliao River | JZ |
+| 雞隆河 | Jilong River | JO |
+| 景山溪 | Jingshan River | JG |
+| 急水溪 | Jishui River | JS |
+| 九岸溪 | Jiuan River | JB |
+| 九芎坑溪 | Jiuqiongkeng River | JQ |
+| 郡坑溪 | Junkeng River | JK |
+| 崁頂溪 | Kanding River | KA |
+| 卡社溪 | Kashe River | KS |
+| 口隘溪 | Kouai River | KO |
+| 蘭陽溪 | Lanyang River | LA |
+| 荖溪 | Lao River | LO |
+| 荖濃溪 | Laonong River | LN |
+| 老田寮溪 | Laotianliao River | LT |
+| 樂合溪 | Lehe River | LE |
+| 雷公坑溪 | Leigongkeng River | LI |
+| 樂樂溪 | Lele River | LL |
+| 苓雅溪 | Lingya River | LG |
+| 留茂安溪 | Liumaoan River | LU |
+| 六重溪 | Liuzhong River | LZ |
+| 鹿寮溪 | Luliao River | LB |
+| 鹿鳴溪 | Luming River | LM |
+| 崙埤溪 | Lunpi River | LP |
+| 崙天溪 | Luntian River | LC |
+| 崙子溪 | Lunzi River | LD |
+| 羅東溪 | Luodong River | LF |
+| 螺仔溪 | Luozi River | LH |
+| 鹿野溪 | Luye River | LY |
+| 馬鞍溪 | Ma'an River | MA |
+| 馬加祿溪 | Majialu River | MJ |
+| 碼崙溪 | Malun River | ML |
+| 茂安溪 | Mao'an River | MO |
+| 貓羅溪 | Maoluo River | MU |
+| 馬太鞍溪 | Matai'an River | MT |
+| 眉溪 | Mei River | ME |
+| 梅林溪 | Meilin River | MI |
+| 美濃溪 | Meinong River | MN |
+| 美優溪 | Meiyou River | MY |
+| 密枝溪 | Mizhi River | MZ |
+| 馬佛溪 | Mofo River | MF |
+| 木瓜溪 | Mugua River | MG |
+| 木坑溪 | Mukeng River | MK |
+| 那菝林溪 | Nabalin River | NA |
+| 楠溪 | Nan River | NN |
+| 南港溪 | Nangang River | NG |
+| 南河溪 | Nanhe River | NH |
+| 南湖溪 | Nanhu River | NU |
+| 南清水溝溪 | Nanqingshuigou River | NQ |
+| 南庄溪 | Nanzhuang River | NZ |
+| 內茅埔溪 | Neimaopu River | NE |
+| 泥水溪 | Nishui River | NI |
+| 牛稠溪 | Niuchou River | NC |
+| 牛稠埔溪 | Niuchoupu River | NO |
+| 牛稠埔坑溪 | Niuchoupukeng River | NP |
+| 牛角灣溪 | Niujiowan River | NJ |
+| 牛埔溪 | Niupu River | NB |
+| 北清水溪 | North Qingshui River | NR |
+| 排谷溪 | Paigu River | PA |
+| 平林溪 | Pinglin River | PI |
+| 破鐺溪 | Podang River | PO |
+| 朴子溪 | Puzi River | PU |
+| 清水溪 | Qingshui River | QI |
+| 旗山溪 | Qishan River | QS |
+| 三疊溪 | Sandie River | SA |
+| 沙河溪 | Shahe River | SH |
+| 上坪溪 | Shangping River | SN |
+| 山里溪 | Shanli River | SL |
+| 扇平溪 | Shanping River | SP |
+| 十八重溪 | Shibachong River | SI |
+| 實谷富溪 | Shigufu River | SG |
+| 石龜溪 | Shigui River | SU |
+| 石榴班溪 | Shiliuban River | SB |
+| 石牛溪 | Shiniu River | SC |
+| 石硦溪 | Shinong River | SO |
+| 石仔坑溪 | Shizikeng River | SZ |
+| 獅子頭溪 | Shizitou River | ST |
+| 壽豐溪 | Shoufeng River | SF |
+| 水長流溪 | Shuichangliu River | SD |
+| 水里溪 | Shuili River | SE |
+| 四重溪 | Sizhong River | SJ |
+| 松羅溪 | Songluo River | SK |
+| 松子腳溪 | Songzijiao River | SM |
+| 南清水溪 | South Qingshui River | SQ |
+| 太多蘭溪 | Taiduolan River | TA |
+| 塔羅灣溪 | Taluowan River | TL |
+| 淡水河 | Tamsui River | TM |
+| 天狗溪 | Tiangou River | TI |
+| 頭汴坑溪 | Toubiankeng River | TO |
+| 頭前溪 | Touqian River | TU |
+| 土場溪 | Tuchang River | TC |
+| 萬安溪 | Wanan River | WA |
+| 萬大溪 | Wanda River | WN |
+| 萬里溪 | Wanli River | WL |
+| 灣丘溪 | Wanqiu River | WQ |
+| 汶水溪 | Wenshui River | WE |
+| 烏溪 | Wu River | WU |
+| 武鹿溪 | Wulu River | WB |
+| 武洛溪 | Wuluo River | WO |
+| 烏牛欄溪 | Wuniulan River | WI |
+| 五十溪 | Wushi River | WS |
+| 烏石坑溪 | Wushikeng River | WH |
+| 仙草埔溪 | Xiancaopu River | XI |
+| 小礁溪 | Xiaojiao River | XA |
+| 霄裡溪 | Xiaoli River | XO |
+| 新店溪 | Xindian River | XN |
+| 新武呂溪 | Xinwulu River | XW |
+| 秀姑巒溪 | Xiuguluan River | XU |
+| 秀巒溪 | Xiuluan River | XL |
+| 鹽水溪 | Yanshui River | YA |
+| 鹽水坑溪 | Yanshuikeng River | YN |
+| 葉子寮溪 | Yeziliao River | YE |
+| 宜蘭河 | Yilan River | YI |
+| 油車溪 | Youche River | YO |
+| 油羅溪 | Youluo River | YU |
+| 圓山溪 | Yuanshan River | YS |
+| 雲林溪 | Yunlin River | YL |
+| 澐水溪 | Yunshui River | YH |
+| 曾文溪 | Zengwen River | ZE |
+| 中港溪 | Zhonggang River | ZH |
+| 中平溪 | Zhongping River | ZO |
+| 中野溪 | Zhongye River | ZN |
+| 卓溪 | Zhuo River | ZU |
+| 卓棍溪 | Zhuogun River | ZG |
+| 濁口溪 | Zhuokou River | ZK |
+| 濁水溪 | Zhuoshui River | ZS |
