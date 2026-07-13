@@ -4,7 +4,7 @@
 
 ## 聯絡窗口
 
-國立臺灣海洋大學 海洋工程科技學士學位學程
-徐志宏 助理教授
-E-mail: aaronhsu@mail.ntou.edu.tw
-Phone: 02-2462-2192#1240
+國立臺灣海洋大學 海洋工程科技學士學位學程  
+徐志宏 助理教授  
+E-mail: aaronhsu@mail.ntou.edu.tw  
+Phone: 02-2462-2192#1240  
