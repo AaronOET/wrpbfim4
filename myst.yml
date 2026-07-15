@@ -20,18 +20,19 @@ project:
     - file: validation.md
     - file: watershed.md
     - file: data.md
-    - file: gwsw.md
     - file: delft3dfmgui.md
     - file: delft3dfm.md
       # title: Delft3D-FM
       # children:
       # - file: delft3dfm/DEM內插補充說明.md
       # - file: delft3dfm/DEM內插資料遺失問題.md
+    - file: gwsw.md
     - file: d3dtools.md
       # title: d3dtools
       # children:
       # - file: d3dtools/Tip001_命令列指令記憶.md
       # - file: d3dtools/Tip002_快速啟動d3dtoolsenv.md
+    - file: tools.md  
     - file: aitools.md  
     - file: qa.md
     
