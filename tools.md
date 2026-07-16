@@ -4,4 +4,5 @@
 * [QGIS](https://qgis.org/en/site/forusers/download.html)
 * [SAGA](http://www.saga-gis.org/en/index.html)
 * [Panoply - netcdf 瀏覽工具](https://www.giss.nasa.gov/tools/panoply/)
+  * 需要 Java 環境，建議使用 [MS OpenJDK](https://www.microsoft.com/openjdk)
 * [檔案管理員](https://sourceforge.net/projects/doublecmd/)
