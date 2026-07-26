@@ -9,7 +9,29 @@ d3dtools 可以直接用 pip 從 PyPI 安裝，但在此之前需要先準備好
 - d3dtools 依賴 GDAL，必須先安裝 GDAL 後再安裝 d3dtools。
 
 
-## 在 Conda 環境中安裝
+## Option1: 使用環境檔案（YAML）快速安裝
+
+若不想手動逐一安裝相依套件，可以直接使用專案提供的 Conda 環境檔案 `d3dtoolsenv.yaml` 一次建立好包含 GDAL 等相依套件的環境（環境名稱為 `d3dtoolsenv`）。
+
+1. 下載環境檔案  
+   ```bash
+   curl -o d3dtoolsenv.yaml https://raw.githubusercontent.com/AaronOET/d3dtools/refs/heads/main/d3dtoolsenv.yaml
+   ```
+
+2. 用該檔案建立 Conda 環境  
+   ```bash
+   conda env create -f d3dtoolsenv.yaml
+   conda activate d3dtoolsenv
+   ```  
+   此檔案已定義好 Python 版本與 GDAL、geopandas、rasterio 等地理空間相關套件，建立完成後即可直接使用，不需再手動安裝 GDAL。
+
+3. 安裝 d3dtools  
+   ```bash
+   pip install d3dtools
+   ```
+
+
+## Option2: 在 Conda 環境中安裝
 
 1. 建立並啟用 Conda 環境（範例）  
    ```bash
@@ -31,7 +53,7 @@ d3dtools 可以直接用 pip 從 PyPI 安裝，但在此之前需要先準備好
    預設會安裝 PyPI 上的最新版本，包含 shapefile 轉換至 Delft3D 模型所需的各種工具。
 
 
-## 在非 Conda（系統 Python、venv）環境中安裝
+## Option3: 在非 Conda（系統 Python、venv）環境中安裝
 
 1. 建立 venv（可選，但建議）  
    ```bash
