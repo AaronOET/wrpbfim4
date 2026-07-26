@@ -1,7 +1,22 @@
 # 資料檢核
 
+---
 
-## 檢核說明
+## 人工檢核說明
+
+* [人工檢核說明](./tutorial/workshop2026/04_資料格式檢核(人工檢核).pdf)
+
+---
+
+## 程式檢核說明
+
+* [自檢程式說明](./tutorial/workshop2026/05_資料格式檢核(程式檢核).pdf)
+* [程式下載](https://drive.google.com/drive/folders/1hu0hLgAtKRkfbv_59Q88P9iOITVnxG-K?usp=sharing)
+* 客戶端網頁URL http://localhost:8099/Dflow/swagger-ui/
+
+---
+
+## 網格檢核說明
 * [2D 非結構網格 (UGRID) 檢核說明](https://tech.fondus.com.tw/1T4Ah2uoQyW98u9MkNkiTA)
   
 ---
@@ -19,6 +34,3 @@
 :::
 
 ---
-
-## 自檢程式
-  
