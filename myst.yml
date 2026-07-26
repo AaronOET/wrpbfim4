@@ -28,8 +28,9 @@ project:
     # - file: selfcheck.md
     - file: d3dtools.md
       # title: d3dtools
-      # children:
-      # - file: d3dtools/Tip001_命令列指令記憶.md
+      children:
+      - file: d3dtools/install.md
+      - file: d3dtools/d3dtooltips.md
       # - file: d3dtools/Tip002_快速啟動d3dtoolsenv.md
     - file: delft3dfmgui.md
     - file: delft3dfm.md
