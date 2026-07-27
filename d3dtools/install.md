@@ -3,6 +3,22 @@
 d3dtools 可以直接用 pip 從 PyPI 安裝，但在此之前需要先準備好 GDAL 等相依套件的環境。
 
 
+## Python 安裝
+
+若尚未安裝 Python，建議安裝 [Miniforge](https://github.com/conda-forge/miniforge)，它是精簡版的 Conda 發行版，預設使用 conda-forge 頻道，安裝地理空間相關套件（如 GDAL）時相容性較佳，也比 Anaconda 更輕量。
+
+- 下載頁面：[https://github.com/conda-forge/miniforge/releases](https://github.com/conda-forge/miniforge/releases)
+- Windows 使用者可直接下載 `Miniforge3-Windows-x86_64.exe` 並執行安裝精靈。
+- 安裝完成後，開啟「Miniforge Prompt」（Windows）或終端機（macOS/Linux），輸入以下指令確認安裝成功：
+
+  ```bash
+  conda --version
+  python --version
+  ```
+
+安裝好 Python（Miniforge）之後，即可依照下列步驟建立環境並安裝 d3dtools。
+
+
 ## 安裝前準備
 
 - 建議使用 Conda 建立獨立的 Python 環境（例如 `d3dtools_env`），以避免與其他專案的套件衝突。 
