@@ -26,7 +26,6 @@ project:
       - file: d3dtools/d3dtooltips.md
     - file: delft3dfmgui.md
     - file: delft3dfm.md
-    - file: aitools.md  
     - file: misc.md
       children:
       - file: misc/sobek.md
