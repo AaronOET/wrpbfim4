@@ -4,13 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SHP2 圖徵展示（Leaflet API）</title>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-    />
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-    <script src="https://unpkg.com/esri-leaflet@3.0.10/dist/esri-leaflet.js"></script>
+    <title>SHP2 圖徵展示（Google Map API）</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIVaKZPCV0tXnZC-XmA4nZXmnoaLvJQwE"></script>
     <style>
       html,
       body {
@@ -19,7 +14,7 @@
         padding: 0;
       }
 
-      #lmap {
+      #gmap {
         width: 100%;
         height: 100vh;
       }
@@ -27,14 +22,12 @@
   </head>
 
   <body>
-    <div id="lmap"></div>
+    <div id="gmap"></div>
     <script>
-      const lMap = L.map(document.getElementById("lmap"), {
-        center: [23.7, 121],
+      const gMap = new google.maps.Map(document.getElementById("gmap"), {
+        center: { lat: 23.7, lng: 121 },
         zoom: 8,
-        crs: L.CRS.EPSG3857,
       });
-      L.esri.basemapLayer("Streets").addTo(lMap);
     </script>
     <script src="geodata.js"></script>
     <script src="index.js"></script>
