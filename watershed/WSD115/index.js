@@ -50,6 +50,50 @@
 
   L.control.layers(null, overlays, { collapsed: false }).addTo(lMap);
 
+  const ToggleAllControl = L.Control.extend({
+    options: { position: "topright" },
+    onAdd: function () {
+      const container = L.DomUtil.create(
+        "div",
+        "leaflet-bar leaflet-control leaflet-control-layers",
+      );
+      container.style.padding = "6px 10px";
+      container.style.background = "#fff";
+      container.style.cursor = "pointer";
+
+      const label = L.DomUtil.create("label", "", container);
+      label.style.display = "flex";
+      label.style.alignItems = "center";
+      label.style.gap = "6px";
+      label.style.margin = "0";
+      label.style.fontFamily =
+        "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif";
+      label.style.fontSize = "13px";
+
+      const checkbox = L.DomUtil.create("input", "", label);
+      checkbox.type = "checkbox";
+      checkbox.checked = true;
+
+      label.appendChild(document.createTextNode("顯示所有圖層"));
+
+      L.DomEvent.disableClickPropagation(container);
+
+      checkbox.addEventListener("change", () => {
+        allLayers.forEach((layer) => {
+          if (checkbox.checked) {
+            lMap.addLayer(layer);
+          } else {
+            lMap.removeLayer(layer);
+          }
+        });
+      });
+
+      return container;
+    },
+  });
+
+  new ToggleAllControl().addTo(lMap);
+
   const bounds = allLayers.reduce(
     (acc, layer) => acc.extend(layer.getBounds()),
     L.latLngBounds([]),
