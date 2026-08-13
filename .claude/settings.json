@@ -5,7 +5,12 @@
       "Bash(git status *)",
       "Bash(awk 'NR>=30&&NR<=45')",
       "Bash(git ls-tree *)",
-      "Bash(git reset *)"
+      "Bash(git reset *)",
+      "Bash(git commit -m ' *)",
+      "Bash(npm ls *)",
+      "Bash(where jupyter-book *)",
+      "PowerShell(Get-Command npm, node, myst -ErrorAction SilentlyContinue)",
+      "PowerShell(npm ls -g --depth=0 2>&1)"
     ]
   }
 }
